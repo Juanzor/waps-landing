@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="100%" height="100%">
+  <defs>
+    <linearGradient id="wapsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2EE673"/>
+      <stop offset="60%" stop-color="#25D366"/>
+      <stop offset="100%" stop-color="#128C7E"/>
+    </linearGradient>
+    <filter id="drop" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+  <!-- WhatsApp Bubble with smooth tail -->
+  <path d="M64 8 C33.07 8 8 33.07 8 64 C8 75.05 11.27 85.34 16.91 94.06 L10 120 L36.56 113.78 C44.8 117.74 54.02 120 64 120 C94.93 120 120 94.93 120 64 C120 33.07 94.93 8 64 8 Z" 
+        fill="url(#wapsGrad)" />
+  <!-- Crisp Lightning Bolt -->
+  <path d="M70 24 L38 68 H64 L56 104 L92 60 H66 L76 24 Z" 
+        fill="#FFFFFF" 
+        filter="url(#drop)"/>
+</svg>
